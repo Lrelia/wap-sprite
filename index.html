@@ -22,29 +22,32 @@
             background-size: 149.5px 84px;
         }
         .sprite-img-success {
-            width: 61px;
-            height: 61px;
+            width: 62px;
+            height: 62px;
             background-repeat: no-repeat;
             background-position: -87px -2.5px;
         }
         .sprite-detail-icon-like {
-            width: 20px;
-            height: 20px;
+            width: 21px;
+            height: 21px;
             background-position: -40px -25.5px;
         }
         .sprite-detail-icon-share {
-            width: 17px;
-            height: 20px;
+            width: 18px;
+            height: 21px;
             background-position: -64px -25.5px;
         }
         .sprite-detail-icon-back {
-            width: 10px;
-            height: 18px;
+            width: 11px;
+            height: 19px;
             background-position: -2.5px -2.5px;
         }
     </style>
 </head>
 <body>
+    <p>
+        不能精确，有可能有缺边的情况，而且元素有可能比图片覆盖的范围大
+    </p>
     <div class="img-wrap">
         <i class="sprite-img-success"></i>
         <i class="sprite-detail-icon-like"></i>
@@ -52,7 +55,7 @@
         <i class="sprite-detail-icon-back"></i>
     </div>
     <script>
-        alert(window.devicePixelRatio);
+        console.log(window.devicePixelRatio);
     </script>
 </body>
 </html>
